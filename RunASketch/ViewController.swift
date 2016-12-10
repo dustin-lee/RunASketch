@@ -17,6 +17,25 @@ class ViewController: UIViewController,MKMapViewDelegate, CLLocationManagerDeleg
     var locationManager = CLLocationManager()
     
     
+    ////////////////////////////////////////
+    // Create a Pin
+    ////////////////////////////////////////
+    @IBAction func createNewPin(_ sender: UILongPressGestureRecognizer) {
+        
+        
+        let touchPoint = sender.location(in: self.mapView)
+        let touchMapCoordinate = mapView.convert(touchPoint, toCoordinateFrom: mapView)
+        
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = touchMapCoordinate
+        
+        mapView.addAnnotation(annotation)
+    }
+    // End Create Pin
+    ////////////////////////////////////////
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
