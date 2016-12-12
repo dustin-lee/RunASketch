@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					3CAACCD31DFB83D0001A615B = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = MV6PZQ927Y;
+						DevelopmentTeam = 532EAGSJC4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -261,10 +261,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MV6PZQ927Y;
+				DEVELOPMENT_TEAM = 532EAGSJC4;
 				INFOPLIST_FILE = RunASketch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dustinlee.RunASketch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielkouba.collectionViewPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,10 +274,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MV6PZQ927Y;
+				DEVELOPMENT_TEAM = 532EAGSJC4;
 				INFOPLIST_FILE = RunASketch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dustinlee.RunASketch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielkouba.collectionViewPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +302,7 @@
 				3CAACCE81DFB83D0001A615B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

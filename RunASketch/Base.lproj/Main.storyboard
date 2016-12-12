@@ -37,7 +37,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="KDs-gt-I3t">
+                <pongPressGestureRecognizer allowableMovement="7" minimumPressDuration="0.69999999999999996" id="KDs-gt-I3t">
                     <connections>
                         <action selector="createNewPin:" destination="BYZ-38-t0r" id="1ya-my-Lfc"/>
                     </connections>
